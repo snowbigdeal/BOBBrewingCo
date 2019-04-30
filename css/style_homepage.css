@@ -1,0 +1,161 @@
+@charset "UTF-8";
+:root{
+   --default-font: 'Montserrat', sans-serif;
+}
+*{box-sizing: border-box;}
+
+body {
+   margin: 0;
+   background-image: url("../img/BearTile.jpg");
+   background-repeat: repeat;
+   background-size: 300px;
+   background-position: center;
+}
+
+div{
+    width:100%;
+    float:left;
+    display: block;
+}
+
+.HomepageHolder_AS{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+.HomepageHolder_AS h1{
+    color: #e88a1a;
+    font-size: 75px;
+    font-family: chippewa-falls, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.HomepageHolder2_AS {
+    width: 100%;
+    padding: 0 2.6%;
+    background-position: center;
+}
+
+.Homepage_Box_AS {
+    width: 28%;
+    margin: 10px 2.6% 50px 2.6%;
+    padding: 180px 0;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-top: 6px #d9d9d9 solid;
+    border-left: 6px #d9d9d9 solid;
+    border-right: 6px #d9d9d9 solid;
+    border-bottom: 30px #d9d9d9 solid;
+}
+ .Homepage_Box_AS p {
+     position: absolute;
+     bottom: -40px;
+     color: black;
+     padding-left: 10px;
+     font-family: var(--default-font);
+ }
+
+.Homepage_Left_1_AS {
+    background-image: url('../img/IPA_BB4_350px350px.jpg');
+}
+
+.Homepage_Middle_1_AS {
+    background-image: url('../img/events_brunch.jpg');
+}
+
+.Homepage_Right_1_AS {
+    background-image: url('../img/events_hammerschlagen.jpg');
+}
+
+.Homepage_Left_2_AS {
+    background-image: url('../img/events_dartboard.jpg');
+}
+
+.Homepage_Middle_2_AS {
+    background-image: url('../img/events_live_music.jpg');
+}
+
+.Homepage_Right_2_AS {
+    background-image: url('../img/events_target_practice.jpg');
+}
+
+.Homepage_OverlayAS {
+    width: 75%;
+    margin: 0;
+    background-color: #cf3030;
+    position: absolute;
+    bottom:0;
+}
+.Homepage_OverlayAS:hover{
+    background-color: #b41d1d;
+}
+
+.HomepageHolder2_AS h2 {
+    color: #d9d9d9;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-family: var(--default-font);
+    margin: 0;
+    padding: 15px;
+}
+
+.Homepage_Holder2_AS h2:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 1310px){
+    .Homepage_OverlayAS{
+        width: 90%;
+    }
+
+@media(max-width: 1100px){
+    .Homepage_Box_AS {
+        width: 28%;
+        margin: 10px 2.6% 50px 2.6%;
+        padding: 160px 0;
+        height: 300px;
+}
+
+    .Homepage_Holder2_AS h2 {
+        font-size: 17px;
+    }
+
+@media(max-width: 1000px){
+    .Homepage_Box_AS {
+        width: 46%;
+        margin: 10px 2% 30px 2%;
+        padding: 160px 0;
+        height: 300px;
+}
+    .Homepage_OverlayAS{
+    width: 70%;
+    }
+
+@media(max-width: 695px){
+    .Homepage_Box_AS {
+        width: 96%;
+        margin: 10px 2% 30px 2%;
+        padding: 160px 0;
+        height: 300px;
+    }
+
+    .Homepage_OverlayAS {
+        width: 50%;
+        }
+
+@media(max-width: 490px){
+    .Homepage_OverlayAS {
+        width: 60%;
+        }
+}
+
+}/* End Media Query */
