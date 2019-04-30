@@ -194,7 +194,7 @@ nav a:hover {
   }
 }
 
-/* Indivdual Page Content Starts Here */
+/* PRODUCT PAGE */
 
 .pageContentMK {
   width: 80%;
@@ -353,27 +353,27 @@ div{
  }
 
 .Homepage_Left_1_AS {
-    background-image: url('../img/IPA_BB4_350px350px.jpg');
+    background-image: url('../img/Beer2.jpg');
 }
 
 .Homepage_Middle_1_AS {
-    background-image: url('../img/events_brunch.jpg');
+    background-image: url('../img/Beer5.jpg');
 }
 
 .Homepage_Right_1_AS {
-    background-image: url('../img/events_hammerschlagen.jpg');
+    background-image: url('../img/Beer4.jpg');
 }
 
 .Homepage_Left_2_AS {
-    background-image: url('../img/events_dartboard.jpg');
+    background-image: url('../img/Beer1.jpg');
 }
 
 .Homepage_Middle_2_AS {
-    background-image: url('../img/events_live_music.jpg');
+    background-image: url('../img/Beer3.jpg');
 }
 
 .Homepage_Right_2_AS {
-    background-image: url('../img/events_target_practice.jpg');
+    background-image: url('../img/Beer6.jpg');
 }
 
 .Homepage_OverlayAS {
