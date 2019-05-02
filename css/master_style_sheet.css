@@ -1,0 +1,235 @@
+@charset "UTF-8";
+*{box-sizing:border-box;}
+html,body{margin:0;}
+:root{
+    --default-font: 'Montserrat', sans-serif;
+    --button-header-font: 'chippewa-falls', sans-serif;
+}
+body {
+   margin: 0;
+   background-image: url("../img/BearTile400px400px.jpg");
+   background-repeat: repeat;
+   background-size: 300px;
+   background-position: center;
+}
+
+.beerSelectionHolderMSS{
+    width:100%;
+    padding: 0 2.6%;
+}
+.beerDeliverySelection1MSS{
+        background-image: url('../img/IPA_BB1_350px350px.jpg');
+}
+.beerDeliverySelection2MSS{
+        background-image: url('../img/IPA_BB2_350px350px.jpg');
+}
+.beerDeliverySelection3MSS{
+        background-image: url('../img/IPA_BB3_350px350px.jpg');
+}
+.beerDeliverySelection4MSS{
+        background-image: url('../img/IPA_BB4_350px350px.jpg');
+}
+.beerDeliverySelection5MSS{
+        background-image: url('../img/IPA_BB1_350px350px.jpg');
+}
+.beerDeliverySelection6MSS{
+        background-image: url('../img/IPA_BB2_350px350px.jpg');
+}
+.beerDeliverySelection1MSS,.beerDeliverySelection2MSS,.beerDeliverySelection3MSS,.beerDeliverySelection4MSS,.beerDeliverySelection5MSS,.beerDeliverySelection6MSS{
+    font-family: var(--button-header-font);
+    font-size: 20px;
+    float:left;
+    width:28%;
+    margin:10px 2.666%;
+    height:350px;
+    border:1px solid black;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #d9d9d9;
+    text-align: center;
+    z-index: 8;
+    overflow:hidden;
+}
+
+
+.beerDeliverySelection1MSS .buttonHoverOverlayMSS, .beerDeliverySelection2MSS .buttonHoverOverlayMSS,.beerDeliverySelection3MSS .buttonHoverOverlayMSS,.beerDeliverySelection4MSS .buttonHoverOverlayMSS,.beerDeliverySelection5MSS .buttonHoverOverlayMSS,.beerDeliverySelection6MSS .buttonHoverOverlayMSS{
+    width:100%;
+    height:100%;
+    background-color:rgba(30,30,30,0.7);
+    z-index:12;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    position:relative;
+}
+
+.beerDeliverySelection1MSS h2, .beerDeliverySelection2MSS  h2,.beerDeliverySelection3MSS h2,.beerDeliverySelection4MSS h2,.beerDeliverySelection5MSS h2,.beerDeliverySelection6MSS h2{
+    margin: 0;
+    padding:30px 0 0 0;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    font-size: 36px;
+    z-index: 11;
+}
+
+.beerDeliverySelection1MSS .orderLinkMSS, .beerDeliverySelection2MSS .orderLinkMSS, .beerDeliverySelection3MSS .orderLinkMSS,.beerDeliverySelection4MSS .orderLinkMSS,.beerDeliverySelection5MSS .orderLinkMSS,.beerDeliverySelection6MSS .orderLinkMSS{
+    font-family: var(--default-font);
+    Float:left;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: auto;
+    margin: 50% 2.5% 10px 2.5%;
+    color: white;
+    background-color: #229a13;
+    text-align: center;
+    z-index: 9;
+    position: absolute;
+    bottom: 0;
+    overflow:hidden;
+    /* display:none; */
+}
+
+.beerDeliverySelection1MSS .orderLinkMSS a, .beerDeliverySelection2MSS .orderLinkMSS a,.beerDeliverySelection3MSS .orderLinkMSS a,.beerDeliverySelection4MSS .orderLinkMSS a,.beerDeliverySelection5MSS .orderLinkMSS a,.beerDeliverySelection6MSS .orderLinkMSS a{
+    display:block;
+    font-family: var(--default-font);
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    z-index: 9;
+    padding: 10px 10px;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.beerDeliverySelection1MSS .orderLinkMSS a:hover, .beerDeliverySelection2MSS .orderLinkMSS a:hover,.beerDeliverySelection3MSS .orderLinkMSS a:hover,.beerDeliverySelection4MSS .orderLinkMSS a:hover,.beerDeliverySelection5MSS .orderLinkMSS a:hover,.beerDeliverySelection6MSS .orderLinkMSS a:hover{
+    background-color: #ff5a00;
+}
+
+.beerDeliverySelection1MSS .orderHoverOverlayMSS, .beerDeliverySelection2MSS .orderHoverOverlayMSS,.beerDeliverySelection3MSS .orderHoverOverlayMSS,.beerDeliverySelection4MSS .orderHoverOverlayMSS,.beerDeliverySelection5MSS .orderHoverOverlayMSS,.beerDeliverySelection6MSS .orderHoverOverlayMSS{
+    height: 100%;
+    width: 100%;
+    float: none;
+    display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color:rgba(30,30,30,0.5);
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.beerDeliverySelection1MSS .orderHoverOverlayMSS:hover,.beerDeliverySelection1MSS
+.buttonHoverOverlayMSS:hover, .beerDeliverySelection2MSS .orderHoverOverlayMSS:hover,
+.beerDeliverySelection2MSS .buttonHoverOverlayMSS:hover, .beerDeliverySelection3MSS .orderHoverOverlayMSS:hover,.beerDeliverySelection3MSS
+.buttonHoverOverlayMSS:hover,.beerDeliverySelection4MSS .orderHoverOverlayMSS:hover,.beerDeliverySelection4MSS
+.buttonHoverOverlayMSS:hover,.beerDeliverySelection5MSS .orderHoverOverlayMSS:hover,.beerDeliverySelection5MSS
+.buttonHoverOverlayMSS:hover,.beerDeliverySelection6MSS .orderHoverOverlayMSS:hover,.beerDeliverySelection6MSS
+.buttonHoverOverlayMSS:hover{
+    background-color:rgba(256,256,256,0.0);
+    color:#ffffff00 ;
+    display:block;
+}
+.boxSelectionShadowMSS{
+    -webkit-box-shadow: 0 0 22px 2px #969696;
+    box-shadow: 0 0 22px 2px #969696;
+}
+.fa-shipping-fast{
+    display:inline-block;
+    padding: 0 0 5px 0;
+    margin: 0 10px;
+}
+
+/* .orderPopBackMSS{
+    position:absolute;
+    display: block;
+    float:left;
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    border:1px solid black;
+    background-color:rgba(0,0,0,0.99);
+}
+
+.orderPopBackMSS.visible{
+    display: block;
+    z-index:98;
+} */
+
+.orderPopMSS{
+    position:fixed;
+    display: none;
+    float:left;
+    width:80%;
+    max-width: 750px;
+    top: 50%;
+    border:1px solid black;
+    background-color:rgba(30,30,30,0.9);
+
+}
+
+.orderPopMSS.visible{
+    display: block;
+    z-index:99;
+}
+
+/*Start of pop-up order form formatting*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 2.5% 5px 2.5%;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/*End of pop-up order form formatting*/

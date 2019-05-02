@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Beer Delivery</title>
+        <!-- Load Master Style Sheet -->
+        <link rel="stylesheet" href="css/master_style_sheet.css">
+
+        <!-- Load Custom Fonts -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!-- Initial Font Selection -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://use.typekit.net/hha3ris.css" rel="stylesheet" >
+
+        <!-- Javascript Links -->
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+         </script>
+
+        <script src="js/delivery_scripts.js" charset="utf-8"></script>
+
+    </head>
+    <body>
+        <div class="navPlaceholderMSS">
+            <img src="https://placehold.it/1800x150"
+            style="width:100%;">
+        </div>
+        <div class="beerSelectionHolderMSS">
+            <div class="beerDeliverySelection1MSS">
+                <div class="buttonHoverOverlayMSS">
+                    <h2>Hibernator <br> Stout</h2>
+                    <div class="orderLinkMSS">
+                        <a href="#">Order Now!<i class="fas fa-shipping-fast"></i></a>
+                        <div class="orderHoverOverlayMSS"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="beerDeliverySelection2MSS">
+                <div class="buttonHoverOverlayMSS">
+                    <h2>Blue Beary <br> Wheat Ale</h2>
+                    <div class="orderLinkMSS">
+                        <a href="#">Order Now! <i class="fas fa-shipping-fast"></i></a>
+                        <div class="orderHoverOverlayMSS"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="beerDeliverySelection3MSS">
+                <div class="buttonHoverOverlayMSS">
+                    <h2>Oso <br> Gose</h2>
+                    <div class="orderLinkMSS">
+                        <a href="#">Order Now! <i class="fas fa-shipping-fast"></i></a>
+                        <div class="orderHoverOverlayMSS"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="beerDeliverySelection4MSS">
+                <div class="buttonHoverOverlayMSS">
+                    <h2>Hive Raider <br> Honey Brown Ale</h2>
+                    <div class="orderLinkMSS">
+                        <a href="#">Order Now! <i class="fas fa-shipping-fast"></i></a>
+                        <div class="orderHoverOverlayMSS"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="beerDeliverySelection5MSS">
+                <div class="buttonHoverOverlayMSS">
+                    <h2>Standing Grizzly <br> Double IPA</h2>
+                    <div class="orderLinkMSS">
+                        <a href="#">Order Now! <i class="fas fa-shipping-fast"></i></a>
+                        <div class="orderHoverOverlayMSS"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="beerDeliverySelection6MSS">
+                <div class="buttonHoverOverlayMSS">
+                    <h2>Bear Ass <br> Pilsner</h2>
+                    <div class="orderLinkMSS">
+                        <a href="#">Order Now! <i class="fas fa-shipping-fast"></i></a>
+                        <div class="orderHoverOverlayMSS"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="orderPopMSS">
+
+                 <form action="action_page.php">
+
+                   <label for="fname">First Name</label>
+                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                   <label for="lname">Last Name</label>
+                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                   <label for="country">Country</label>
+                   <select id="country" name="country">
+                     <option value="mexico">Mexico</option>
+                     <option value="canada">Canada</option>
+                     <option value="usa">USA</option>
+                   </select>
+
+                   <label for="subject">Subject</label>
+                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                   <input type="submit" value="Submit">
+
+                 </form>
+                    <div id="closeButtonMSS">
+                        <a href="#">X</a>
+                    </div>
+
+            </div>
+            <div class="orderPopBackMSS">
+                <span>Backdrop</span>
+            </div>
+        </div>
+
+    </body>
+</html>
