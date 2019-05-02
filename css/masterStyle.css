@@ -316,9 +316,11 @@ div{
 }
 
 .HomepageHolder_AS h1{
-    color: #e88a1a;
+    color: #d9d9d9;
     font-size: 75px;
     font-family: chippewa-falls, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     text-align: center;
     margin: 0;
     padding-top: 20px;
@@ -329,6 +331,25 @@ div{
     width: 100%;
     padding: 0 2.6%;
     background-position: center;
+}
+
+.Homepage_Hero_AS{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.Homepage_Hero_AS img{
+    max-width: 100%;
+}
+
+.Homepage_Hero_AS h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 8px #000000;
+    
 }
 
 .Homepage_Box_AS {
@@ -400,6 +421,8 @@ div{
 .Homepage_Holder2_AS h2:hover {
     cursor: pointer;
 }
+
+
 
 @media(max-width: 1310px){
     .Homepage_OverlayAS{
