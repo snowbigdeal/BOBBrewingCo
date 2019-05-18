@@ -201,6 +201,8 @@ body {
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  font-family: var(--default-font);
+  font-size: 12px;
 }
 
 .formContainerMSS input[type=text]:focus, input[type=password]:focus {
@@ -212,6 +214,9 @@ body {
   height: 100px;
   margin: 5px 2.5% 5px 2.5%;
   display: inline-block;
+  font-family: var(--default-font);
+  font-size: 12px;
+  padding: 15px;
 }
 /* Overwrite default styles of hr */
 .formContainerMSS hr {
@@ -222,6 +227,8 @@ body {
 /* Set a style for the submit/register button */
 .formContainerMSS input[type=submit] {
   background-color: #4CAF50;
+  font-family: var(--default-font);
+  font-size: 12px;
   color: white;
   padding: 16px 20px;
   margin: 8px 2.5%;
