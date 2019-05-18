@@ -24,6 +24,8 @@ div{
     background-size: cover;
     overflow: hidden;
     color: white;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 .Holder_AS h1{
