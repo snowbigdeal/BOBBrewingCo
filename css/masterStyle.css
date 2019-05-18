@@ -40,7 +40,9 @@ header {
   -moz-box-shadow: 0px 8px 27px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 8px 27px 0px rgba(0,0,0,0.75);
 }
-
+#logoLink{
+    grid-column: 2 / 3;
+}
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
