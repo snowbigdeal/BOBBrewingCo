@@ -54,6 +54,12 @@ body {
     overflow:hidden;
 }
 
+@media(max-width: 750px){
+  .beerDeliverySelection1MSS,.beerDeliverySelection2MSS,.beerDeliverySelection3MSS,.beerDeliverySelection4MSS,.beerDeliverySelection5MSS,.beerDeliverySelection6MSS{
+      width:95%;
+      margin:45px 2.5%;
+  }
+}
 
 .beerDeliverySelection1MSS .buttonHoverOverlayMSS, .beerDeliverySelection2MSS .buttonHoverOverlayMSS,.beerDeliverySelection3MSS .buttonHoverOverlayMSS,.beerDeliverySelection4MSS .buttonHoverOverlayMSS,.beerDeliverySelection5MSS .buttonHoverOverlayMSS,.beerDeliverySelection6MSS .buttonHoverOverlayMSS{
     width:100%;
@@ -157,14 +163,15 @@ body {
     color:#fff;
     display: none;
     float:left;
-    width:80%;
+    width:70%;
     max-width: 750px;
+    max-height: 80vh;
     top: 50%;
     border:1px solid black;
     background-color:rgba(30,30,30,0.9);
     font-family: var(--default-font);
     font-size: 14px;
-
+    overflow-y: auto
 }
 .orderPopMSS h1{
   text-align:center;
@@ -178,10 +185,15 @@ body {
     display: block;
     z-index:99;
 }
+@media(max-width: 750px){
+  .orderPopMSS{
+    margin-top: 60px;
+  }
+}
 
 /*Start of pop-up order form formatting*/
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.formContainerMSS input[type=text], input[type=password] {
   width: 95%;
   padding: 15px;
   margin: 5px 2.5% 5px 2.5%;
@@ -190,7 +202,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+.formContainerMSS input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -201,13 +213,13 @@ input[type=text]:focus, input[type=password]:focus {
   display: inline-block;
 }
 /* Overwrite default styles of hr */
-hr {
+.formContainerMSS hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
 /* Set a style for the submit/register button */
-input[type=submit] {
+.formContainerMSS input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 16px 20px;
@@ -215,14 +227,12 @@ input[type=submit] {
   border: none;
   cursor: pointer;
   width: 95%;
-  opacity: 0.9;
+  opacity: 0.7;
+}
+.formContainerMSS input[type=submit]:hover {
+  opacity: 1.0;
 }
 
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
-}
 #closeButtonMSS{
   position: absolute;
   top: 0;

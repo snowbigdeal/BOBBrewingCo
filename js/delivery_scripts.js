@@ -1,6 +1,8 @@
 $(function(){
-        var sw = screen.availWidth;
+        // var sw = screen.availWidth;
+        var sw = window.innerWidth;
         var el = $('.orderPopMSS');
+
         // console.log((sw-750)/2);
         if (sw < 750){
             $(".orderPopMSS").css("margin-left", "10%");
@@ -77,7 +79,8 @@ $(function(){
     });
 
     $('.orderLinkMSS').click(function(){
-            var sh = screen.availHeight;
+            // var sh = screen.availHeight;
+            var sh = window.innerHeight;
             var el = $('.orderPopMSS');
             var el2 = $('orderPopBackMSS');
             el.toggleClass('visible');
