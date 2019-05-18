@@ -12,28 +12,29 @@ body {
    background-size: 300px;
    background-position: center;
 }
-
 .beerSelectionHolderMSS{
     width:100%;
     padding: 0 2.6%;
+    position: relative;
+    top: 0;
 }
 .beerDeliverySelection1MSS{
-        background-image: url('../img/IPA_BB1_350px350px.jpg');
+        background-image: url('../img/Beer5.jpg');
 }
 .beerDeliverySelection2MSS{
         background-image: url('../img/IPA_BB2_350px350px.jpg');
 }
 .beerDeliverySelection3MSS{
-        background-image: url('../img/IPA_BB3_350px350px.jpg');
+        background-image: url('../img/Beer3.jpg');
 }
 .beerDeliverySelection4MSS{
-        background-image: url('../img/IPA_BB4_350px350px.jpg');
+        background-image: url('../img/Beer6.jpg');
 }
 .beerDeliverySelection5MSS{
-        background-image: url('../img/IPA_BB1_350px350px.jpg');
+        background-image: url('../img/IPA_BB4_350px350px.jpg');
 }
 .beerDeliverySelection6MSS{
-        background-image: url('../img/IPA_BB2_350px350px.jpg');
+        background-image: url('../img/Beer1.jpg');
 }
 .beerDeliverySelection1MSS,.beerDeliverySelection2MSS,.beerDeliverySelection3MSS,.beerDeliverySelection4MSS,.beerDeliverySelection5MSS,.beerDeliverySelection6MSS{
     font-family: var(--button-header-font);

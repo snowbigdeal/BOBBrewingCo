@@ -19,7 +19,9 @@ body {
 }
 
 .contentWrapperMK {
-    /* THIS CHANNGES THE WHOLE HEIGHT OF PAGE */
+    /* THIS CHANGES THE WHOLE HEIGHT OF PAGE */
+    /* Added 125px of margin to top of content wrapper div to avoid overlap of common header bar */
+  margin-top: 125px;
   height: 1000px;
   display: grid;
   place-items: center;
@@ -335,7 +337,8 @@ div{
 
 .Homepage_Hero_AS{
     width: 100%;
-    margin-top: 200px;
+    /* Removed margin on hero image and added margin to contentWrapperMK*/
+    /* margin-top: 200px; */
     margin-bottom: 20px;
 }
 
