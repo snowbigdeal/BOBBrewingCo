@@ -12,10 +12,18 @@ body {
    background-size: 300px;
    background-position: center;
 }
+.contentWrapperMK h1{
+    color: #fff;
+    font-size: 75px;
+    font-family: chippewa-falls, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    text-shadow: 3px 3px #e88a1a;
+}
 .beerSelectionHolderMSS{
     width:100%;
     padding: 0 2.6%;
-    margin-top: 25px;
     position: relative;
     top: 0;
 }
@@ -42,7 +50,7 @@ body {
     font-size: 20px;
     float:left;
     width:28%;
-    margin:45px 2.666%;
+    margin:0px 2.666% 45px 2.666%;
     height:350px;
     border:1px solid black;
     background-position: center;

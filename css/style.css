@@ -29,13 +29,13 @@ div{
 }
 
 .Holder_AS h1{
-    color: #e88a1a;
+    color: #fff;
     font-size: 75px;
     font-family: chippewa-falls, sans-serif;
-    text-align: center;
+    text-align: center;;
+    padding-top: 70px;
     margin: 0;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    text-shadow: 3px 3px #e88a1a;
 }
 
 .Holder2_AS {
