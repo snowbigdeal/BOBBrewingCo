@@ -557,6 +557,33 @@ div{
   color: white;
 }
 
+.OverlayLM{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .5;
+}
+.HatsLM span,
+.AccessoriesLM span,
+.ShirtLM span{
+    background:#e88a1a;
+    color:white;
+    z-index:10;
+    padding: 5px 8px;
+    border-radius: 3px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
 @media(max-width: 1310px){
     .Homepage_OverlayAS{
         width: 90%;
