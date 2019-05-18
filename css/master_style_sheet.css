@@ -15,6 +15,7 @@ body {
 .beerSelectionHolderMSS{
     width:100%;
     padding: 0 2.6%;
+    margin-top: 25px;
     position: relative;
     top: 0;
 }
@@ -41,7 +42,7 @@ body {
     font-size: 20px;
     float:left;
     width:28%;
-    margin:10px 2.666%;
+    margin:45px 2.666%;
     height:350px;
     border:1px solid black;
     background-position: center;
@@ -151,25 +152,9 @@ body {
     margin: 0 10px;
 }
 
-/* .orderPopBackMSS{
-    position:absolute;
-    display: block;
-    float:left;
-    height: 100%;
-    width:100%;
-    top:0;
-    left:0;
-    border:1px solid black;
-    background-color:rgba(0,0,0,0.99);
-}
-
-.orderPopBackMSS.visible{
-    display: block;
-    z-index:98;
-} */
-
 .orderPopMSS{
     position:fixed;
+    color:#fff;
     display: none;
     float:left;
     width:80%;
@@ -177,7 +162,16 @@ body {
     top: 50%;
     border:1px solid black;
     background-color:rgba(30,30,30,0.9);
+    font-family: var(--default-font);
+    font-size: 14px;
 
+}
+.orderPopMSS h1{
+  text-align:center;
+  font-family: var(--button-header-font);
+}
+.orderPopMSS label{
+  margin-left: 20px;
 }
 
 .orderPopMSS.visible{
@@ -200,7 +194,12 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
+.formContainerMSS textarea{
+  width: 95%;
+  height: 100px;
+  margin: 5px 2.5% 5px 2.5%;
+  display: inline-block;
+}
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
@@ -208,29 +207,25 @@ hr {
 }
 
 /* Set a style for the submit/register button */
-.registerbtn {
+input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 16px 20px;
-  margin: 8px 0;
+  margin: 8px 2.5%;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 95%;
   opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
   background-color: #f1f1f1;
   text-align: center;
+}
+#closeButtonMSS{
+  position: absolute;
+  top: 0;
+  right:0;
 }
 /*End of pop-up order form formatting*/
