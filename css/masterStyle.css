@@ -425,7 +425,134 @@ div{
     cursor: pointer;
 }
 
+/* LEE'S CSS */
+.merch-header-holder{
+    width:100%;
+    float:left;
+    text-align:center;
+}
 
+.merch-header-holder h2{
+    *zoom:1;
+    display:inline;
+    display:inline-block;
+    margin: 40px 0 15px 0;
+    padding: 7px 47px;
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid white;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: rgba(0,0,0,0.2);
+}
+.ShirtsHeader{
+    /* border:20px;
+    border-style: solid;
+    border-width: 5px; */
+}
+.ShirtLM{
+    margin:20px 12.5% 20px 0;
+    position:relative;
+    display:block;
+    float:left;
+    width:25%;
+    padding: 0px 0px;
+    background:#000;
+    color:#fff;
+    text-decoration: none;
+    position:relative;
+    top:0;
+    border:40px;
+    border-style: solid;
+    border-width: 5px;
+}
+.ShirtLM img{
+    height:100%;
+    max-width:100%;
+    cursor: pointer;
+}
+.ShirtInfoLM{
+    position:relative;
+
+}
+.ShirtLM.lastLM{
+    margin:20px 0;
+
+}
+.ShirtLM:hover {
+  background-color: #3e8e41;
+  color: white;
+
+}
+.HatsHeader{
+    /* border:20px;
+    border-style: solid;
+    border-width: 5px; */
+}
+.HatsLM{
+    margin:20px 12.5% 20px 0;
+    position:relative;
+    display:block;
+    float:left;
+    width:25%;
+    padding: 0px 0px;
+    background:#000;
+    color:#fff;
+    text-decoration: none;
+
+    top:0;
+    border-style: solid;
+    border-width: 5px;
+}
+.HatsLM img{
+    height:auto;
+    max-width:100%;
+    cursor: pointer;
+}
+
+.HatsLM.lastLM{
+    margin:20px 0;
+
+}
+.HatsLM:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.AccesoriesHeader{
+    /* border:20px;
+    border-style: solid;
+    border-width: 5px; */
+}
+.AccessoriesLM{
+    margin:20px 12.5% 20px 0;
+    position:relative;
+    display:block;
+    float:left;
+    width:25%;
+    padding: 0px 0px;
+    background:#000;
+    color:#fff;
+    text-decoration: none;
+    position:relative;
+    top:0;
+    border-style: solid;
+    border-width: 5px;
+}
+.AccessoriesLM img{
+    height:auto;
+    max-width:100%;
+    cursor: pointer;
+}
+.AccessoriesLM.lastLM{
+    margin:20px 0;
+
+}
+.AccessoriesLM:hover {
+  background-color: #3e8e41;
+  color: white;
+}
 
 @media(max-width: 1310px){
     .Homepage_OverlayAS{
