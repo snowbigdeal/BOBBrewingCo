@@ -171,7 +171,8 @@ body {
     background-color:rgba(30,30,30,0.9);
     font-family: var(--default-font);
     font-size: 14px;
-    overflow-y: auto
+    overflow-y: auto;
+    margin-top: 80px;
 }
 .orderPopMSS h1{
   text-align:center;
