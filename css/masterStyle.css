@@ -23,10 +23,14 @@ body {
     /* Added 125px of margin to top of content wrapper div to avoid overlap of common header bar */
   margin-top: 125px;
   height: 1000px;
-  display: grid;
+  /* display: grid; */
+  display: block;
   place-items: center;
 }
 
+.contentWrapperMK h1{
+ margin: 20px 0;
+}
 /* navigation styles start here */
 
 header {
@@ -311,37 +315,35 @@ div{
 }
 
 .HomepageHolder_AS{
-    margin-top:700px;
     width: 100%;
     background-position: center;
     background-size: cover;
     overflow: hidden;
     color: white;
+    display: block;
 }
 
 .HomepageHolder_AS h1{
     color: #d9d9d9;
     font-size: 55px;
     font-family: chippewa-falls, sans-serif;
+    font-size: 75px;
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 180px;
+    text-shadow: 3px 3px #e88a1a;
 }
 
 .HomepageHolder2_AS {
     width: 100%;
     padding: 0 2.6%;
     background-position: center;
+    display: block;
 }
 
 .Homepage_Hero_AS{
     width: 100%;
-    /* Removed margin on hero image and added margin to contentWrapperMK*/
-    /* margin-top: 200px; */
-    margin-bottom: 20px;
-    margin-top: 200px;
+    display: block;
 }
 
 .Homepage_Hero_AS img{
@@ -411,6 +413,10 @@ div{
 }
 .Homepage_OverlayAS:hover{
     background-color: #b41d1d;
+}
+
+.HomepageHolder2_AS h1 {
+    margin: 0;
 }
 
 .HomepageHolder2_AS h2 {
