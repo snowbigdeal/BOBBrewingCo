@@ -31,7 +31,7 @@ div{
     font-size: 75px;
     font-family: chippewa-falls, sans-serif;
     text-align: center;
-    margin: 0;
+    margin: 20px 0;
     text-shadow: 3px 3px #e88a1a;
 }
 
@@ -103,7 +103,6 @@ div{
     font-family: sans-serif;
     margin-left: 5%;
     font-family: var(--default-font);
-    margin: 0;
     padding: 15px;
 }
 

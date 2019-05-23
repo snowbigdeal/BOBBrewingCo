@@ -30,6 +30,20 @@ body {
 
 .contentWrapperMK h1{
  margin: 20px 0;
+ color: #d9d9d9;
+ font-family: chippewa-falls, sans-serif;
+ font-size: 75px;
+ font-weight: 500;
+ font-style: normal;
+ text-align: center;
+ text-shadow: 3px 3px #e88a1a;
+ margin: 20px 0;
+}
+
+@media(max-width: 750px){
+  .contentWrapperMK h1{
+   font-size: 55px;
+  }
 }
 /* navigation styles start here */
 
@@ -201,11 +215,18 @@ nav a:hover {
     transform: scale(1,1);
   }
 }
+@media(max-width: 800px){
+    .logoMK {
+      transform: scale(.75, .75);
+    }
+  }
 
 /* PRODUCT PAGE */
 
 .pageContentMK {
   width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #d9d9d9;
   height: auto;
   margin-top: 10px;
@@ -332,6 +353,13 @@ div{
     font-style: normal;
     text-align: center;
     text-shadow: 3px 3px #e88a1a;
+    margin: 20px 0;
+}
+
+@media(max-width: 750px){
+  .HomepageHolder_AS h1{
+      font-size: 55px;
+  }
 }
 
 .HomepageHolder2_AS {
@@ -416,7 +444,7 @@ div{
 }
 
 .HomepageHolder2_AS h1 {
-    margin: 0;
+    margin: 20px 0;
 }
 
 .HomepageHolder2_AS h2 {
@@ -470,7 +498,7 @@ div{
     *zoom:1;
     display:inline;
     display:inline-block;
-    margin: 40px 0 15px 0;
+    margin: 10px 0 15px 0;
     padding: 7px 47px;
     color: white;
     font-family: sans-serif;
@@ -519,6 +547,10 @@ div{
   color: white;
 
 }
+.HatsTotalLM{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
 .HatsHeader{
     /* border:20px;
     border-style: solid;
@@ -559,6 +591,10 @@ div{
     border-style: solid;
     border-width: 5px; */
 }
+.AccessoriesTotalLM{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
 .AccessoriesLM{
     margin:20px 12.5% 20px 0;
     position:relative;
@@ -596,6 +632,10 @@ div{
     height: 100%;
     background: black;
     opacity: .5;
+}
+.MerchandisePageLM{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 .HatsLM span,
 .AccessoriesLM span,
