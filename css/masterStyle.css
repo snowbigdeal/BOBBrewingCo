@@ -694,6 +694,15 @@ div{
     .Homepage_OverlayAS {
         width: 50%;
         }
+
+    .HistoryMK img{
+        max-width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
 }
 @media(max-width: 490px){
     .Homepage_OverlayAS {
