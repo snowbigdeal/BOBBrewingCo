@@ -694,7 +694,7 @@ div{
     .Homepage_OverlayAS {
         width: 50%;
         }
-
+}
 @media(max-width: 490px){
     .Homepage_OverlayAS {
         width: 60%;
