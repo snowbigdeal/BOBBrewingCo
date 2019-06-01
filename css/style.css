@@ -110,35 +110,36 @@ div{
     cursor: pointer;
 }
 
-@media(max-width: 1310px){
+@media screen and (max-width: 1310px){
     .OverlayAS{
         width: 90%;
     }
-
-@media(max-width: 1100px){
+}
+@media screen and (max-width: 1100px){
     .Box_AS {
         width: 28%;
         margin: 10px 2.6% 50px 2.6%;
         padding: 160px 0;
         height: 300px;
 }
-
     .Holder2_AS h2 {
         font-size: 17px;
     }
+}
 
-@media(max-width: 1000px){
+
+@media screen and (max-width: 1000px){
     .Box_AS {
         width: 46%;
         margin: 10px 2% 30px 2%;
         padding: 160px 0;
         height: 300px;
-}
+    }
     .OverlayAS{
     width: 70%;
     }
-
-@media(max-width: 695px){
+}
+@media screen and (max-width: 695px){
     .Box_AS {
         width: 96%;
         margin: 10px 2% 30px 2%;
@@ -149,8 +150,8 @@ div{
     .OverlayAS {
         width: 50%;
         }
-
-@media(max-width: 490px){
+}
+@media screen and (max-width: 490px){
     .OverlayAS {
         width: 60%;
         }

@@ -60,7 +60,7 @@ body {
     overflow:hidden;
 }
 
-@media(max-width: 750px){
+@media screen and (max-width: 750px){
   .beerDeliverySelection1MSS,.beerDeliverySelection2MSS,.beerDeliverySelection3MSS,.beerDeliverySelection4MSS,.beerDeliverySelection5MSS,.beerDeliverySelection6MSS{
       width:95%;
       margin:45px 2.5%;
@@ -193,7 +193,7 @@ body {
     display: block;
     z-index:99;
 }
-@media(max-width: 750px){
+@media screen and (max-width: 750px){
   .orderPopMSS{
     margin-top: 60px;
   }
